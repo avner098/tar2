@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 ///
-
+///
 public class SharedData 
 {
 	private ArrayList<Integer> array = new ArrayList<>();

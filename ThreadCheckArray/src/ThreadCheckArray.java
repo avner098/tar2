@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-///
+/////
 public class ThreadCheckArray implements Runnable 
 {
 	private boolean flag;
@@ -13,7 +13,7 @@ public class ThreadCheckArray implements Runnable
 		this.sd = sd;	
 		synchronized (sd) 
 		{
-			array = sd;
+			array = sd.getArray();
 			b = sd.getB();
 		}		
 		winArray = new boolean[array.size()];
